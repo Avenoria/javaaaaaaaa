@@ -1,0 +1,31 @@
+module java {
+}
+new list lista 
+lista. add ('a','b','c'})
+package Lista;
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+
+class Listy{
+public static void main(String[]Args) {
+	ArrayList<String> lista = new ArrayList <String>();
+	System.out.println(lista.size());
+	
+	lista.add("Ala");
+	
+	System.out.println(lista);
+	System.out.println(lista.size());
+	
+	lista.add("kot");
+	lista.add("pou(ktory_sie_goli);
+	lista.add("adam");
+	System.out.println(lista);
+	System.out.println(lista.size()); //nie 
+	lista.remove("Adam");   //strasznie
+	System.out.println(lista);
+		lista.remove(2);
+	System.out.println(lista);
+	String Imię = (String)lista.get(0);
+	System.out.println("Pierwszym elementem na liście jest " + Imię);
+}	
